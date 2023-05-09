@@ -25,6 +25,10 @@
 .section-hero {
   padding: 188px 0;
   background-color: var(--color-grey);
+  background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
   }
 
  .nav-list  {
@@ -293,6 +297,9 @@ color: var(--color-slate);
     justify-content: center;
     gap: 24px;
 }
+.header{
+box-shadow:0px 2px 1px rgba(46, 47, 66, 0.08),
+}
 
 h1,
 h2,
@@ -391,9 +398,7 @@ img{
 .social-list-icon{
 flex: content; 
 }
-.background{
-backgroud-image:url()
-}
+
 
 
 
