@@ -184,7 +184,7 @@ background-color: var(--color-ocean);
 
 .section-team-list {
  background-color: var(--color-cloud);
-padding: 120px 0 ;
+padding: 120 0;
  }
  .teams-list{
     font-size: 36px;
