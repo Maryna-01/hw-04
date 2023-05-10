@@ -148,7 +148,7 @@ margin-bottom: 48px;
   margin-right: auto;
 }
 .btn-list-text:hover{
-background-color: var(--color-ocean);
+background-color:var(--color-ocean);
 }
 .btn-list-text:focus {
   background-color:var(--color-ocean);
@@ -488,7 +488,6 @@ fill: var(--color-cloud) ;
 }
 .social-list-icon{
   fill: currentColor;
-  
 }
 
 .customers-icon{
