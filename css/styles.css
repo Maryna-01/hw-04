@@ -518,22 +518,11 @@ fill: currentColor;
   width: calc((100% - 120px) / 6);
   height: 88px;
 }
-.customers-list-icon{
-  width: 100%;
-  height: 100%;
-  border: 1px solid #8e8f99;
-  border-radius:4px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: var(--color-light-slate);
+.customers-list-icon {
   fill: currentColor;
 }
-.customers-list-icon:hover,
-.customers-list-icon:focus{
-border-color: #404bbf;
-color: #404bbf;
-}
+
+
 
 
 
