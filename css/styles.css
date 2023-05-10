@@ -360,7 +360,7 @@ color: var(--color-slate);
     gap: 24px;
 }
 .header{
-box-shadow:0px 2px 1px rgba(46, 47, 66, 0.08);
+box-shadow:0px 2px 1px rgba(46, 47, 66, 0.08),0px 1px 1px rgba(46, 47, 66, 0.16),0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 h1,
@@ -468,8 +468,8 @@ fill: var(--color-cloud) ;
   gap: 24px;
 }
 .section-customers{
-  padding-top: 120;
-  padding-bottom: 120;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 .link-media{
   width: 100%;
