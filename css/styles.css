@@ -233,9 +233,9 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.1
   height: 100%;
   background-color:var(--color-iris);
   border-radius:50%;
-  display: flex;
   align-items: center;
   justify-content: center;
+  display:flex;
  }
  .social-group:hover,
  .social-group:focus{
@@ -247,7 +247,7 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.1
   padding: 100px 0;
 }
 .footer-container{
-  margin-right: 120px;
+gap: 120px;
 }
 .footer-content-container{
   display: flex;
@@ -482,7 +482,7 @@ fill:var(--color-cloud);
   height: 100%;
   background-color:var(--color-iris);
   border-radius: 50%;
-  display: flex;
+  display:flex;
   align-items:center;
   justify-content: center;
 }
