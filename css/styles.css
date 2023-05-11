@@ -70,7 +70,14 @@
  .link{
   text-decoration: none;
   color: inherit;
+    display: block;
  }
+ .link:hover,
+ .link:focus{
+  box-shadow:0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+ }
+ 
+
  .list {
    list-style: none;
  }
@@ -238,6 +245,9 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.1
 .footer-container-link {
   background-color: var(--color-navy-blue);
   padding: 100px 0;
+}
+.footer-container{
+  margin-right: 120px;
 }
 .footer-content-container{
   display: flex;
